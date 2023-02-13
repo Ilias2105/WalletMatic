@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(#de4540, #9198e5);
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #de4540;
+  height: 90px;
+  box-shadow: 1px 1px 6px rgb(163, 36, 36);
+}
+
+.logo {
+  height: 90px;
+  margin-left: 15px;
+}
+
+.nav-connect {
+  width: 145px;
+  height: 50px;
+  margin-right: 20px;
+  background-color: #ffb17d;
+  border: none;
+  box-shadow: 1px 1px 6px rgb(130, 108, 19);
+  font-family: "Open Sans";
+  font-size: 1.15em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 100px;
+  color: #D1D5DE;
+}
+
+
+.wallet {
+  display: flex;
+  padding: 20px;
+  background: linear-gradient(#ffb17d, #d67433);
+  color: #000;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-bottom: 180px;
+  margin-left: 550px;
+  margin-right: 550px;
+  height: 350px;
+  box-shadow: 1px 1px 6px rgb(219, 100, 91);
+  border-radius: 99px;
+}
+
+input[type="text"] {
+  width: 30%;
+  display: block;
+  padding: 12px 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #ffb17d;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+.btn {
+    width: 120px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .envoyer {
+    background-color: #0f6833;
+  }
+
+  .retirer {
+    background-color: #e32016;
+  }
+
+.error, .success {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.error {
+  background: #ee3312;
+  color: #D1D5DE;
+}
+
+.success {
+  background: #53814D; 
+  color: #D1D5DE;
+}
+
